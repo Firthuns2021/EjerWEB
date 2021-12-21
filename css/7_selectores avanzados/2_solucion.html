@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejemplo de selectores avanzados</title>
+    <style>
+            table{
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center ;
+            }
+            /* crea un marco con un hueco entre las letras-numeros*/
+            table,  tr,th,td {
+                                border:1px solid #333;
+                                line-height: 2em;
+            }
+        th{ background-color: #f5f5f5;
+            padding: 0.5em;  }
+        td{  padding: 0.3em;    }
+        th.euro{
+                    background: #E6F3FF url(imagenes/euro.PNG) no-repeat left center;
+                    padding: 0.5em 5em 2.5em;
+        }
+        th.dolar{
+                    background: #E6F3FF url(imagenes/dolar.PNG) no-repeat left   center;
+            padding: 1em 5em 2em;
+        }
+            th.libra{
+                background: #E6F3FF url(imagenes/libra.PNG) no-repeat left   center;
+                padding: 1.5em 5em 1.5em;
+            }
+            th.yen{
+                background: #E6F3FF url(imagenes/yen.PNG) no-repeat left   center;
+                padding: 2em 5em 1.2em;
+            }
+        tr:nth-child(n+1) td{   text-align: center;        }
+        tr:nth-child(2n) { background-color: purple ;        }
+        tr:nth-child(1) { background-color: red ;        }
+        tr:hover { background: pink;}
+
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Cambio</th>
+        <th>Compra</th>
+        <th>Venta</th>
+        <th>Máximo</th>
+        <th>Mínimo</th>
+    </tr>
+    <tr>
+        <th class="euro">Euro/Dolar</th>
+        <td>1.25</td>
+        <td>1.25</td>
+        <td>1.25</td>
+        <td>1.24</td>
+    </tr>
+    <tr>
+        <th class="dolar">Dolar/Yen</th>
+        <td>119.01</td>
+        <td>119.05</td>
+        <td>119.82</td>
+        <td>119.82</td>
+    </tr>
+    <tr>
+        <th class="libra">Libra/Dolar</th>
+        <td>1.86</td>
+        <td>1.86</td>
+        <td>1.86</td>
+        <td>1.85</td>
+    </tr>
+    <tr>
+        <th class="yen">Yen/Euro</th>
+        <td>0.67</td>
+        <td>0.67</td>
+        <td>0.66</td>
+        <td>0.67</td>
+    </tr>
+</table>
+</body>
+</html>

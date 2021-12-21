@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilo lista 2</title>
+    <style>
+            ul{
+                list-style-type: none;
+                text-align: center;
+                /* Suficiente anchura para que quepa "Presentación" */
+                width: 120px;
+                padding: 0;
+               }
+            li{ /* las cajas en azul, color-letras y borde de la caja en amarillo-verde */
+                    background-color: Blue;
+                    color: yellowgreen;
+                    /* El borde blanco separa los elementos */
+                    border: 2px solid yellowgreen;
+              }
+            /**     Necesario para que el enlace ocupe todo el ancho del elmento de la lista  */
+            li a{
+                color: red;
+                text-decoration: none;
+
+                display: block;
+                width: 100%;
+                }
+        /** Efecto cuando se situa el raton encina de un elemento de la lista o cuando recibe el foco del teclado */
+        li a:hover, li a:focus {
+                                    /* ¿Qué pasa si se utiliza la propiedad border?*/
+                                    outline: 2px solid #F00;
+                                }
+    </style>
+
+</head>
+
+<body style="background-color: #555555">
+    <h1>Universidad de Alicante</h1>
+    <ul>
+        <li> <a href=" https://www.ua.es/"> Presentación</a>   </li>
+        <li> <a href="https://web.ua.es/es/titulos-propios.html ">Estudios</a>       </li>
+        <li> <a href="https://web.ua.es/es/estudiantes-ua.html ">Alumnos</a>        </li>
+        <li> <a href=" https://web.ua.es/es/deportes.html">Deportes</a>       </li>
+        <li> <a href="https://web.ua.es/es/mas-alla-del-campus.html ">Servicios</a>      </li>
+    </ul>
+    <p>
+        <a href="http://publicacionesaltaria.com/es/tienda/112-html-css-curso-practico.html">HTML &amp; CSS: Curso práctico avanzado</a>
+    </p>
+</body>
+</html>

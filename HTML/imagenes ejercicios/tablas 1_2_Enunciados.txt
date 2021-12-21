@@ -1,0 +1,26 @@
+Ejercicios - Tablas 1
+Enunciado
+A partir del texto que se te proporciona, debes crear una página web que tenga el mismo aspecto que la siguiente imagen:
+Ejercicios - Tablas 1
+Enunciado
+A partir del texto que se te proporciona, debes crear una página web que tenga el mismo aspecto que la siguiente imagen:
+
+Captura de pantalla del ejercicio
+
+Además, tienes que tener en cuenta los siguientes requisitos:
+
+El destino del enlace Índice de desempleo anual es la página web:
+http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&init=1&language=en&pcode=tsdec450&plugin=1
+Nota: en el código base que se te proporciona vas a encontrar una etiqueta nueva, la etiqueta <style>. Esta etiqueta permite introducir instrucciones de CSS (Cascading Style Sheets) en una página web. CSS se emplea para definir la presentación visual de una página web y se explica en la segunda parte de este curso. Las instrucciones que se han incluido tienen como objetivo que la tabla y las celdas de la tabla se muestren con un borde. Esto también se podría haber logrado con el atributo border de HTML, pero es mejor utilizar siempre CSS para todo lo relacionado con la presentación de una página web.
+.-------------------------
+Ejercicios - Tablas 2
+Enunciado
+Debes crear una página web que tenga el mismo aspecto que la siguiente imagen:
+
+Ejercicios - Tablas 2
+Enunciado
+Debes crear una página web que tenga el mismo aspecto que la siguiente imagen:
+
+Captura de pantalla del ejercicio
+
+Nota: en el código base que se te proporciona vas a encontrar una etiqueta nueva, la etiqueta <style>. Esta etiqueta permite introducir instrucciones de CSS (Cascading Style Sheets) en una página web. CSS se emplea para definir la presentación visual de una página web y se explica en la segunda parte de este curso. Las instrucciones que se han incluido tienen como objetivo que la tabla y las celdas de la tabla se muestren con un borde. Esto también se podría haber logrado con el atributo border de HTML, pero es mejor utilizar siempre CSS para todo lo relacionado con la presentación de una página web.

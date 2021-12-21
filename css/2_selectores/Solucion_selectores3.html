@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores</title>
+  <!--
+    A partir de la página web que se te proporciona, debes escribir las reglas CSS necesarias para lograr una página web que tenga el siguiente funcionamiento:
+     /** •	Cuando un enlace tiene el foco del teclado, se muestra de color azul y se muestra el subrayado.     */
+
+
+    -->
+    <style>
+        /** •	En su estado normal, un enlace se muestra de color rojo y sin subrayado (propiedad text-decoration).    */
+        a{ color: #ff0000;
+        text-decoration: none;
+        }
+    /**   •	Cuando el usuario sitúa el cursor del ratón sobre un enlace, se invierten los colores (el texto del enlace se muestra
+            con color blanco sobre un fondo rojo) y se muestra el subrayado.   */
+        a:visited{
+            color: #00AA00;
+        }
+
+        a:hover{
+                color: yellow;
+                background-color: #f00;
+                text-decoration: underline;
+        }
+    /** •	Cuando un enlace ha sido visitado, se muestra de color verde oscuro. */
+        a:focus{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        /**   •	Cuando un enlace está activo, se muestra de color naranja.       */
+        a:active{
+            color: orange;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Universidad de Alicante</h1>
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=N93eRfYQkMA">Presentación</a></li>
+    <li><a href="">Estudios</a></li>
+    <li><a href="">Alumnos</a></li>
+    <li><a href="">Deportes</a></li>
+    <li><a href="">Servicios</a></li>
+</ul>
+</body>
+</html>
